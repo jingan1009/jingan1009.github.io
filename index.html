@@ -38,59 +38,15 @@ I received my Ph.D. at Stanford University under the supervision of Lenya Ryzhik
         <p>I am broadly interested in the mathematical aspects of machine learning and data science problems, 
           using tools from stochastic analysis and partial differential equations. I also study evolution equations including reaction diffusion equations. </p>
    
-        <script>
-        paper_count = 0
-
-        function add_paper(title, authors,  paper_link, arxiv_link) {
-            list_entry = "<li>"
-            if (link != null)
-                list_entry += "<a href=\"" + link + "\">"
-            list_entry += "<b>" + title + "</b>"
-            if (link != null)
-                list_entry += "</a>"
-            list_entry += "<br>" + authors +  ".</li>"
-
-
-            if (paper_link != null)
-                list_entry += " <a href=\"" + paper_link + "\"><span class=\"label label-info\">paper</span></a>"
-            
-            if (arxiv_link != null)
-                list_entry += " <a href=\"" + arxiv_link + "\"><span class=\"label label-primary\">arXiv</span></a>"
-
-     
-
-            list_entry += "<br>"
-
-            if (msg != null)
-                list_entry += "<i>" + msg + "</i>"
-
-            list_entry += "<div id=\"div" + paper_count + "\" style=\"font-size:15px\"></div><br>"
-
-            document.write(list_entry)
-
-            paper_count += 1
-        }
-
-        
-        document.write("<h2>Papers</h2>")
-        document.write("<ul>")
-        
-        add_paper("Why does the
-two-timescale Q-learning converge to diﬀerent mean field solutions? A
-unified convergence analysis",
-            "<b>Jing An</b>, Jianfeng Lu, Yue Wu, and Yang Xiang",
-            "https://arxiv.org/abs/2405.19231",
-            null,
-            
-        )
        
-document.write("<ul>")
-        
-  
-</script>
-
+        <h2> Papers </h2>
 
         <p>Under construction</p>
+        <ul>
+          <li>Why does the
+two-timescale Q-learning converge to diﬀerent mean field solutions? A
+unified convergence analysis, with Jianfeng Lu, Yue Wu, and Yang Xiang. Submitted [<a href="https://arxiv.org/pdf/2404.04357">arXiv</a>]<li>
+          <ul>
 
         <h2> Teaching </h2>
           
